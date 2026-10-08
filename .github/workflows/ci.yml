@@ -27,4 +27,5 @@ jobs:
           sources: |
             Contrib/DotNetChecker/detectfx.cpp
           strict: false
+          targets: x86-unicode,amd64-unicode
           release: ${{ github.event_name == 'release' }}
